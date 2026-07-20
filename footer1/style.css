@@ -1,0 +1,45 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.beach-footer{
+    background: linear-gradient(180deg,#ff8c42,#ff6b6b,#6a0572);
+    color:#fff;
+}
+.beach-footer h2{
+    font-weight:700;
+    font-size: 2rem;
+}
+.beach-footer h5{
+    color:#ffe082;
+    margin-bottom: 20px;
+}
+.beach-footer p,
+.beach-footer li{
+    color:#f8f9fa;
+    line-height:1.8;
+
+}
+.beach-footer ul li{
+    margin-bottom: 10px;
+}
+.beach-footer ul li a{
+    color:white;
+    text-decoration: none;
+
+}
+.social-icons a{
+           display: inline-flex;
+           width:45px;
+           height: 45px;
+           border-radius: 50%;
+           justify-content: center;
+           align-items: center;
+           margin-right: 10px;
+           font-size:20px;
+           background: rgba(255,255,255,.2);
+}
+.beach-footer hr{
+    border-color:rgba(255,255,255,.3)
+}
